@@ -21,7 +21,7 @@ public class VideoPlayView extends SurfaceView implements SurfaceHolder.Callback
 	private SoundDecodeThread soundDecodeThread;
 	public static boolean isCreate = false;
 	public VideoPlayView(Context context) {
-		super(context);
+		super(context); //
 		getHolder().addCallback(this);
 	}
 
